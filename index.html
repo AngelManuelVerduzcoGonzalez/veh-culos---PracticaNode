@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestión de Vehículos</title>
+</head>
+<body>
+  <h1>Gestión de Vehículos</h1>
+
+  <form id="vehiculoForm">
+    <label for="placa">Placa:</label>
+    <input type="text" id="placa" name="placa" required>
+    <br>
+
+    <label for="marca">Marca:</label>
+    <input type="text" id="marca" name="marca" required>
+    <br>
+
+    <label for="modelo">Modelo:</label>
+    <input type="text" id="modelo" name="modelo" required>
+    <br>
+
+    <button type="button" id="agregarBtn">Agregar</button>
+    <button id="listarBtn" type="button">Listar</button>
+    <button id="buscarBtn" type="button">Buscar</button>
+    <button id="eliminarBtn" type="button">Eliminar</button>
+  </form>
+  <div id="resultado"></div>
+</body>
+<script src="./js/crud.js"></script>
+</html>
